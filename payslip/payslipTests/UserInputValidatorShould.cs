@@ -24,7 +24,8 @@ namespace payslipTests
         public void ValidateNamesUntilValid() 
         { 
             var output = new MockOutputAstext();
-            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"tim"}), output, new MockDisplayMessage());
+            var backupUserInputs = new List<string> {"tim"};
+            var inputValidator = new UserInputValidator(new UserInputMocks(backupUserInputs), output, new MockDisplayMessage());
             var result = inputValidator.ValidateName("");
             Assert.Equal("tim",result);
             var numberOfErrorMessages = output.OutCounter;
@@ -46,7 +47,8 @@ namespace payslipTests
         public void AcceptNumbersUntilValid() 
         { 
             var output = new MockOutputAstext();
-            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"3333"}), output, new MockDisplayMessage());
+            var backupUserInputs = new List<string> {"3333"};
+            var inputValidator = new UserInputValidator(new UserInputMocks(backupUserInputs), output, new MockDisplayMessage());
             var result = inputValidator.ValidateInteger("sdfbf");
             Assert.Equal(3333,result);
             var numberOfErrorMessages = output.OutCounter;
@@ -57,7 +59,8 @@ namespace payslipTests
         public void AcceptNumbersUntilValid2() 
         { 
             var output = new MockOutputAstext();
-            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"xkfjnlfn","dgf","565"}), output, new MockDisplayMessage());
+            var backupUserInputs = new List<string> {"xkfjnlfn", "dgf", "565"};
+            var inputValidator = new UserInputValidator(new UserInputMocks(backupUserInputs), output, new MockDisplayMessage());
             var result = inputValidator.ValidateInteger("sdfbf");
             Assert.Equal(565,result);
             var numberOfErrorMessages = output.OutCounter;
@@ -79,7 +82,8 @@ namespace payslipTests
         public void ValidateDatesUntilValid() 
         { 
             var output = new MockOutputAstext();
-            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"dsf","10 may"}), output, new MockDisplayMessage());
+            var backupUserInputs = new List<string> {"dsf","10 may"};
+            var inputValidator = new UserInputValidator(new UserInputMocks(backupUserInputs), output, new MockDisplayMessage());
             var result = inputValidator.ValidateDate("xdksnf");
             Assert.Equal("10 may",result);
             var numberOfErrorMessages = output.OutCounter;
