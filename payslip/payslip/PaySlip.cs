@@ -35,7 +35,7 @@ namespace payslip
         public int GrossIncome()
         {
             var income = _salary / 12.0;
-            return Convert.ToInt32(Math.Round(income,MidpointRounding.AwayFromZero));
+            return Rounder.Round(income);
         }
 
         public int Tax()
@@ -52,7 +52,7 @@ namespace payslip
         public int Super()
         {
             var super = GrossIncome() * _superRate / 100.0;
-            return Convert.ToInt32(Math.Round(super,MidpointRounding.AwayFromZero));
+            return Rounder.Round(super);
         }
     }
 }

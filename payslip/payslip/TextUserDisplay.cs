@@ -1,8 +1,8 @@
 namespace payslip
 {
-    public class TUI
+    public class TextUserDisplay
     {
-        public void GetUserInput(InputReaderInterface inputReader, InputValidatorInterface validator, 
+        public void Run(InputReaderInterface inputReader, InputValidatorInterface validator, 
             DisplayMessageInterface messages, OutInterface outputWriter, PayslipRendererInterface payslipRenderer)
         {
             outputWriter.Print(messages.Welcome());
@@ -33,7 +33,7 @@ namespace payslip
             outputWriter.Print(messages.NewLine());
             
             var payslip = new PaySlip(firstName,surname,salary,super,startDate,endDate);
-            payslipRenderer.Render(payslip,outputWriter); //14th output
+            payslipRenderer.Render(payslip,outputWriter);
             outputWriter.Print(messages.NewLine());
             
             outputWriter.Print(messages.ThankUser());

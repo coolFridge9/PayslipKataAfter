@@ -24,7 +24,7 @@ namespace payslipTests
                 "Super: 450\n"
             };
 
-            Assert.Equal(expected,resultOutput.WriteText);
+            Assert.Equal(expected.ToString(),resultOutput.WriteText.ToString());
         }
 
     }

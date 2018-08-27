@@ -6,52 +6,52 @@ namespace payslipTests
     {
         public string Welcome()
         {
-            return "testWelcome";
+            return "1";
         }
 
         public string GetName()
         {
-            return "testName";
+            return "2";
         }
 
         public string GetSurname()
         {
-            return "testSurname";
+            return "3";
         }
 
         public string GetSalary()
         {
-            return "testSalary";
+            return "4";
         }
 
         public string GetSuperRate()
         {
-            return "testSuperRate";
+            return "5";
         }
 
         public string GetPaymentStartDate()
         {
-            return "testStart";
+            return "6";
         }
 
         public string GetPaymentEndDate()
         {
-            return "testEnd";
+            return "7";
         }
 
         public string NewLine()
         {
-            return "TestNewLine";
+            return "N";
         }
 
         public string ThankUser()
         {
-            return "testThank";
+            return "8";
         }
 
         public string Error()
         {
-            return "test";
+            return "testErrorMessage";
         }
     }
 }

@@ -20,11 +20,16 @@ namespace payslipTests
             Assert.Equal(expected,result);
 
         }
-
-        [Fact]
-        public void ReturnNumOfDays() //see if this needs doing or if its always 1 month
+       [Fact]
+        public void ReturnDateTimeFormat2()
         {
-            
+            var start = "1 April";
+            var end = "30 April";
+            var dateHandler = new DateHandler(start,end);
+            var result = dateHandler.ToString();
+            var expected = "01 April - 30 April";
+            Assert.Equal(expected,result);
+
         }
       
     }

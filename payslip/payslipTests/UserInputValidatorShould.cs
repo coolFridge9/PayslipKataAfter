@@ -12,57 +12,78 @@ namespace payslipTests
         [Fact]
         public void ValidateNames() 
         { 
-            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>()));
+            var output = new MockOutputAstext();
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>()), output, new MockDisplayMessage());
             var result = inputValidator.ValidateName("maaa");
             Assert.Equal("maaa",result);
+            var numberOfErrorMessages = output.OutCounter;
+            Assert.Equal(0,numberOfErrorMessages);
         }
         
         [Fact]
         public void ValidateNamesUntilValid() 
         { 
-            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"tim"}));
+            var output = new MockOutputAstext();
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"tim"}), output, new MockDisplayMessage());
             var result = inputValidator.ValidateName("");
             Assert.Equal("tim",result);
+            var numberOfErrorMessages = output.OutCounter;
+            Assert.Equal(1,numberOfErrorMessages);
         }
         
         [Fact]
         public void ValidateNumbers() 
         { 
-            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>()));
+            var output = new MockOutputAstext();
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>()), output, new MockDisplayMessage());
             var result = inputValidator.ValidateInteger("47657");
             Assert.Equal(47657,result);
+            var numberOfErrorMessages = output.OutCounter;
+            Assert.Equal(0,numberOfErrorMessages);
         }
         
         [Fact]
         public void AcceptNumbersUntilValid() 
         { 
-            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"3333"}));
+            var output = new MockOutputAstext();
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"3333"}), output, new MockDisplayMessage());
             var result = inputValidator.ValidateInteger("sdfbf");
             Assert.Equal(3333,result);
+            var numberOfErrorMessages = output.OutCounter;
+            Assert.Equal(1,numberOfErrorMessages);
         }
         
         [Fact]
         public void AcceptNumbersUntilValid2() 
         { 
-            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"xkfjnlfn","dgf","565"}));
+            var output = new MockOutputAstext();
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"xkfjnlfn","dgf","565"}), output, new MockDisplayMessage());
             var result = inputValidator.ValidateInteger("sdfbf");
             Assert.Equal(565,result);
+            var numberOfErrorMessages = output.OutCounter;
+            Assert.Equal(3,numberOfErrorMessages);
         }
         
         [Fact]
         public void ValidateDates() 
         { 
-            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>()));
+            var output = new MockOutputAstext();
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>()), output, new MockDisplayMessage());
             var result = inputValidator.ValidateDate("31 March");
             Assert.Equal("31 March",result);
+            var numberOfErrorMessages = output.OutCounter;
+            Assert.Equal(0,numberOfErrorMessages);
         }
         
         [Fact]
         public void ValidateDatesUntilValid() 
         { 
-            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"dsf","10 may"}));
+            var output = new MockOutputAstext();
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"dsf","10 may"}), output, new MockDisplayMessage());
             var result = inputValidator.ValidateDate("xdksnf");
             Assert.Equal("10 may",result);
+            var numberOfErrorMessages = output.OutCounter;
+            Assert.Equal(2,numberOfErrorMessages);
         }
     }
 }

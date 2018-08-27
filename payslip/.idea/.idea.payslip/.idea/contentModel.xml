@@ -33,8 +33,9 @@
         <e p="payslip.csproj" t="IncludeRecursive" />
         <e p="PayslipRenderer.cs" t="Include" />
         <e p="Program.cs" t="Include" />
+        <e p="Rounder.cs" t="Include" />
         <e p="TaxCalculator.cs" t="Include" />
-        <e p="TUI.cs" t="Include" />
+        <e p="TextUserDisplay.cs" t="Include" />
         <e p="UserInputValidator.cs" t="Include" />
       </e>
       <e p="payslip.sln" t="IncludeFlat" />
@@ -61,8 +62,9 @@
         <e p="PayslipRendererShould.cs" t="Include" />
         <e p="PaySlipShould.cs" t="Include" />
         <e p="payslipTests.csproj" t="IncludeRecursive" />
+        <e p="RounderShould.cs" t="Include" />
         <e p="TaxCalculatorShould.cs" t="Include" />
-        <e p="TUIShould.cs" t="Include" />
+        <e p="TextUserDisplayShould.cs" t="Include" />
         <e p="UserInputValidatorShould.cs" t="Include" />
       </e>
     </e>

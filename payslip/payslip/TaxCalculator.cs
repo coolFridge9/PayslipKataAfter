@@ -26,7 +26,7 @@ namespace payslip
                 if (salary > taxBracket)
                 {
                     var tax = (baseTax + (salary - taxBracket) * (cents / 100) )/ 12;
-                    return Convert.ToInt32(Math.Round(tax, MidpointRounding.AwayFromZero));
+                    return Rounder.Round(tax);
                 }
             }
 
