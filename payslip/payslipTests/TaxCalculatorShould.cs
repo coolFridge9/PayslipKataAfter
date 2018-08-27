@@ -21,5 +21,4 @@ namespace payslipTests
             Assert.Equal(expected,result);
         }
     }
-    
 }
