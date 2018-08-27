@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Reflection.Metadata.Ecma335;
 using Microsoft.VisualStudio.TestPlatform.ObjectModel;
 using payslip;
@@ -7,32 +8,45 @@ namespace payslipTests
 {
     public class UserInputValidatorShould
     {
-        private readonly UserInputValidator _userInputValidator;
 
-        public UserInputValidatorShould()
-        {
-            _userInputValidator = new UserInputValidator(new UserInputMocks("47657"));
+        [Fact]
+        public void ValidateNames() 
+        { 
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>()));
+            var result = inputValidator.ValidateName("maaa");
+            Assert.Equal("maaa",result);
         }
         
-        [Theory]
-        [InlineData("jkgjkfd",true)]
-        [InlineData("asdfghjklasdfghjkcg",false)]
-        [InlineData("123456789012345",false)]
-        [InlineData("",false)]
-        [InlineData("d",true)]
-        public void ValidateNames(string name, bool isAllowed) 
+        [Fact]
+        public void ValidateNamesUntilValid() 
         { 
-            //must be less than 15 chars and atleast 1
-            var result = _userInputValidator.ValidateName(name);
-            //Assert.Equal(isAllowed,result);
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"tim"}));
+            var result = inputValidator.ValidateName("");
+            Assert.Equal("tim",result);
         }
         
         [Fact]
         public void ValidateNumbers() 
         { 
-            //must be an integer
-            var result = _userInputValidator.ValidateInteger("47657");
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>()));
+            var result = inputValidator.ValidateInteger("47657");
             Assert.Equal(47657,result);
+        }
+        
+        [Fact]
+        public void AcceptNumbersUntilValid() 
+        { 
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"3333"}));
+            var result = inputValidator.ValidateInteger("sdfbf");
+            Assert.Equal(3333,result);
+        }
+        
+        [Fact]
+        public void AcceptNumbersUntilValid2() 
+        { 
+            var inputValidator = new UserInputValidator(new UserInputMocks(new List<string>{"xkfjnlfn","dgf","565"}));
+            var result = inputValidator.ValidateInteger("sdfbf");
+            Assert.Equal(565,result);
         }
     }
 }
