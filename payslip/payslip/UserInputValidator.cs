@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace payslip
 {
@@ -23,6 +24,15 @@ namespace payslip
                 return intNum;
             return ValidateInteger(_reader.Read());
         }
-   
+
+        public string ValidateDate(string date)
+        {
+            var splitDate = date.Split(" ");
+            if (splitDate.Length != 2)
+                return ValidateDate(_reader.Read());
+            if (int.TryParse(splitDate[0], out var intNum))
+                return date;
+            return ValidateDate(_reader.Read());
+        }
     }
 }

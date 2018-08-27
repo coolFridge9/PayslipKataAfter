@@ -30,17 +30,19 @@
       <file leaf-file-name="UserInputValidatorShould.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/payslipTests/UserInputValidatorShould.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+            <state relative-caret-position="543">
+              <caret line="64" column="42" lean-forward="true" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
               <folding>
-                <marker date="1535364410540" expanded="true" signature="6:158" ph="..." />
-                <marker date="1535364410540" expanded="true" signature="182:1709" ph="{...}" />
-                <marker date="1535364410540" expanded="true" signature="226:1707" ph="{...}" />
-                <marker date="1535364410540" expanded="true" signature="285:506" ph="{...}" />
-                <marker date="1535364410540" expanded="true" signature="577:798" ph="{...}" />
-                <marker date="1535364410540" expanded="true" signature="861:1085" ph="{...}" />
-                <marker date="1535364410540" expanded="true" signature="1156:1385" ph="{...}" />
-                <marker date="1535364410540" expanded="true" signature="1457:1701" ph="{...}" />
+                <marker date="1535365447754" expanded="true" signature="6:158" ph="..." />
+                <marker date="1535365447754" expanded="true" signature="182:2309" ph="{...}" />
+                <marker date="1535365447754" expanded="true" signature="226:2307" ph="{...}" />
+                <marker date="1535365447754" expanded="true" signature="285:506" ph="{...}" />
+                <marker date="1535365447754" expanded="true" signature="577:798" ph="{...}" />
+                <marker date="1535365447754" expanded="true" signature="861:1085" ph="{...}" />
+                <marker date="1535365447754" expanded="true" signature="1156:1385" ph="{...}" />
+                <marker date="1535365447754" expanded="true" signature="1457:1701" ph="{...}" />
+                <marker date="1535365447754" expanded="true" signature="1762:1991" ph="{...}" />
+                <marker date="1535365447754" expanded="true" signature="2062:2301" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -49,14 +51,16 @@
       <file leaf-file-name="UserInputValidator.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/payslip/UserInputValidator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="465">
+              <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
               <folding>
-                <marker date="1535352087874" expanded="true" signature="32:689" ph="{...}" />
-                <marker date="1535352087874" expanded="true" signature="97:687" ph="{...}" />
-                <marker date="1535352087874" expanded="true" signature="221:272" ph="{...}" />
-                <marker date="1535352087874" expanded="true" signature="320:471" ph="{...}" />
-                <marker date="1535352087874" expanded="true" signature="523:677" ph="{...}" />
+                <marker date="1535365379851" expanded="true" signature="6:47" ph="..." />
+                <marker date="1535365379851" expanded="true" signature="66:1063" ph="{...}" />
+                <marker date="1535365379851" expanded="true" signature="131:1061" ph="{...}" />
+                <marker date="1535365379851" expanded="true" signature="255:306" ph="{...}" />
+                <marker date="1535365379851" expanded="true" signature="354:505" ph="{...}" />
+                <marker date="1535365379851" expanded="true" signature="557:711" ph="{...}" />
+                <marker date="1535365379851" expanded="true" signature="760:1055" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -93,10 +97,15 @@
       <file leaf-file-name="TUIShould.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/payslipTests/TUIShould.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
+            <state relative-caret-position="420">
+              <caret line="28" column="81" lean-forward="false" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
               <folding>
-                <marker date="1535352117630" expanded="true" signature="0:874" ph="/* using payslip; ... */" />
+                <marker date="1535365257037" expanded="true" signature="6:61" ph="..." />
+                <marker date="1535365257037" expanded="true" signature="85:1018" ph="{...}" />
+                <marker date="1535365257037" expanded="true" signature="114:383" ph="{...}" />
+                <marker date="1535365257037" expanded="true" signature="168:377" ph="{...}" />
+                <marker date="1535365257037" expanded="true" signature="405:1016" ph="{...}" />
+                <marker date="1535365257037" expanded="true" signature="516:1010" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -205,12 +214,12 @@
         <option value="$PROJECT_DIR$/payslipTests/UserInputValidator.cs" />
         <option value="$PROJECT_DIR$/payslip/Interfaces/UserInputValidator.cs" />
         <option value="$PROJECT_DIR$/payslip/Interfaces/InputValidatorInterface.cs" />
-        <option value="$PROJECT_DIR$/payslip/UserInputValidator.cs" />
         <option value="$PROJECT_DIR$/payslipTests/Mocks/MockUserInputValidator.cs" />
-        <option value="$PROJECT_DIR$/payslipTests/TUIShould.cs" />
         <option value="$PROJECT_DIR$/payslip/Interfaces/InputReaderInterface.cs" />
         <option value="$PROJECT_DIR$/payslip/ConsoleReader.cs" />
         <option value="$PROJECT_DIR$/payslipTests/Mocks/UserInputMock.cs" />
+        <option value="$PROJECT_DIR$/payslipTests/TUIShould.cs" />
+        <option value="$PROJECT_DIR$/payslip/UserInputValidator.cs" />
         <option value="$PROJECT_DIR$/payslipTests/UserInputValidatorShould.cs" />
       </list>
     </option>
@@ -326,12 +335,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535325246397</updated>
-      <workItem from="1535325248833" duration="21417000" />
+      <workItem from="1535325248833" duration="22454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21417000" />
+    <option name="totallyTimeSpent" value="22454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,11 +353,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.297" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.297" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -591,16 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/payslipTests/TUIShould.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="3" />
-          <folding>
-            <marker date="1535352117630" expanded="true" signature="0:874" ph="/* using payslip; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/payslip/Interfaces/InputReaderInterface.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -624,19 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/payslipTests/Mocks/MockUserInputValidator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <marker date="1535352087877" expanded="true" signature="38:303" ph="{...}" />
-            <marker date="1535352087877" expanded="true" signature="106:301" ph="{...}" />
-            <marker date="1535352087877" expanded="true" signature="160:205" ph="{...}" />
-            <marker date="1535352087877" expanded="true" signature="253:295" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/payslipTests/Mocks/UserInputMock.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -651,33 +638,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/payslipTests/TUIShould.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="81" lean-forward="false" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
+          <folding>
+            <marker date="1535365257037" expanded="true" signature="6:61" ph="..." />
+            <marker date="1535365257037" expanded="true" signature="85:1018" ph="{...}" />
+            <marker date="1535365257037" expanded="true" signature="114:383" ph="{...}" />
+            <marker date="1535365257037" expanded="true" signature="168:377" ph="{...}" />
+            <marker date="1535365257037" expanded="true" signature="405:1016" ph="{...}" />
+            <marker date="1535365257037" expanded="true" signature="516:1010" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payslipTests/Mocks/MockUserInputValidator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1535352087877" expanded="true" signature="38:303" ph="{...}" />
+            <marker date="1535352087877" expanded="true" signature="106:301" ph="{...}" />
+            <marker date="1535352087877" expanded="true" signature="160:205" ph="{...}" />
+            <marker date="1535352087877" expanded="true" signature="253:295" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/payslip/UserInputValidator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="465">
+          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
           <folding>
-            <marker date="1535352087874" expanded="true" signature="32:689" ph="{...}" />
-            <marker date="1535352087874" expanded="true" signature="97:687" ph="{...}" />
-            <marker date="1535352087874" expanded="true" signature="221:272" ph="{...}" />
-            <marker date="1535352087874" expanded="true" signature="320:471" ph="{...}" />
-            <marker date="1535352087874" expanded="true" signature="523:677" ph="{...}" />
+            <marker date="1535365379851" expanded="true" signature="6:47" ph="..." />
+            <marker date="1535365379851" expanded="true" signature="66:1063" ph="{...}" />
+            <marker date="1535365379851" expanded="true" signature="131:1061" ph="{...}" />
+            <marker date="1535365379851" expanded="true" signature="255:306" ph="{...}" />
+            <marker date="1535365379851" expanded="true" signature="354:505" ph="{...}" />
+            <marker date="1535365379851" expanded="true" signature="557:711" ph="{...}" />
+            <marker date="1535365379851" expanded="true" signature="760:1055" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/payslipTests/UserInputValidatorShould.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="543">
+          <caret line="64" column="42" lean-forward="true" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
           <folding>
-            <marker date="1535364410540" expanded="true" signature="6:158" ph="..." />
-            <marker date="1535364410540" expanded="true" signature="182:1709" ph="{...}" />
-            <marker date="1535364410540" expanded="true" signature="226:1707" ph="{...}" />
-            <marker date="1535364410540" expanded="true" signature="285:506" ph="{...}" />
-            <marker date="1535364410540" expanded="true" signature="577:798" ph="{...}" />
-            <marker date="1535364410540" expanded="true" signature="861:1085" ph="{...}" />
-            <marker date="1535364410540" expanded="true" signature="1156:1385" ph="{...}" />
-            <marker date="1535364410540" expanded="true" signature="1457:1701" ph="{...}" />
+            <marker date="1535365447754" expanded="true" signature="6:158" ph="..." />
+            <marker date="1535365447754" expanded="true" signature="182:2309" ph="{...}" />
+            <marker date="1535365447754" expanded="true" signature="226:2307" ph="{...}" />
+            <marker date="1535365447754" expanded="true" signature="285:506" ph="{...}" />
+            <marker date="1535365447754" expanded="true" signature="577:798" ph="{...}" />
+            <marker date="1535365447754" expanded="true" signature="861:1085" ph="{...}" />
+            <marker date="1535365447754" expanded="true" signature="1156:1385" ph="{...}" />
+            <marker date="1535365447754" expanded="true" signature="1457:1701" ph="{...}" />
+            <marker date="1535365447754" expanded="true" signature="1762:1991" ph="{...}" />
+            <marker date="1535365447754" expanded="true" signature="2062:2301" ph="{...}" />
           </folding>
         </state>
       </provider>
