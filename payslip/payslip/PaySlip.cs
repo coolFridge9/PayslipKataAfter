@@ -2,7 +2,7 @@ using System;
 
 namespace payslip
 {
-    public class PaySlip
+    public class PaySlip : PaySlipInterface
     {
         private readonly string _firstName;
         private readonly string _surname;

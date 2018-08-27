@@ -11,7 +11,10 @@
         <e p="ConsoleReader.cs" t="Include" />
         <e p="DateHandler.cs" t="Include" />
         <e p="DisplayMessages.cs" t="Include" />
-        <e p="InputReaderInterface.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="InputReaderInterface.cs" t="Include" />
+          <e p="PaySlipInterface.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.0" t="Include">
@@ -29,6 +32,10 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="DateHandlerShould.cs" t="Include" />
         <e p="DisplayMessagesShould.cs" t="Include" />
+        <e p="MockInputs" t="Include">
+          <e p="FirstNameMock.cs" t="Include" />
+        </e>
+        <e p="MockPaySlip.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.0" t="Include">
