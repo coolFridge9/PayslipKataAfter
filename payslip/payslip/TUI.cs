@@ -2,7 +2,8 @@ namespace payslip
 {
     public class TUI
     {
-        public void GetUserInput(InputReaderInterface inputReader, InputValidatorInterface validator, DisplayMessageInterface messages, OutInterface outputWriter)
+        public void GetUserInput(InputReaderInterface inputReader, InputValidatorInterface validator, 
+            DisplayMessageInterface messages, OutInterface outputWriter, PayslipRendererInterface payslipRenderer)
         {
             outputWriter.Print(messages.Welcome());
             outputWriter.Print(messages.NewLine());
@@ -32,6 +33,10 @@ namespace payslip
             outputWriter.Print(messages.NewLine());
             
             var payslip = new PaySlip(firstName,surname,salary,super,startDate,endDate);
+            payslipRenderer.Render(payslip,outputWriter); //14th output
+            outputWriter.Print(messages.NewLine());
+            
+            outputWriter.Print(messages.ThankUser());
         }
     }
 }

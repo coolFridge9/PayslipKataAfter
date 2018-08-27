@@ -12,7 +12,7 @@ namespace payslipTests
             var TUI = new TUI();
             var mockInput = new UserInputMocks(new List<string>{"name","name","10000","7","10 m","20 m"});
             var mockOutput = new MockOutputAstext();
-            TUI.GetUserInput(mockInput, new MockUserInputValidator(), new MockDisplayMessage(), mockOutput);
+            TUI.GetUserInput(mockInput, new MockUserInputValidator(), new MockDisplayMessage(), mockOutput, new MockPayslipRenderer());
             Assert.Equal("testName", mockOutput.WriteText[2]);
             Assert.Equal("testSalary", mockOutput.WriteText[6]);
         }
