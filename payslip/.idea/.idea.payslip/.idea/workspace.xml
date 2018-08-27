@@ -41,14 +41,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InputReaderInterface.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InputReaderInterface.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/payslip/InputReaderInterface.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <marker date="1535342312535" expanded="true" signature="17:80" ph="{...}" />
-                <marker date="1535342312535" expanded="true" signature="57:78" ph="{...}" />
+                <marker date="1535342563049" expanded="true" signature="17:103" ph="{...}" />
+                <marker date="1535342563049" expanded="true" signature="61:101" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsoleReader.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/payslip/ConsoleReader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <folding>
+                <marker date="1535342650696" expanded="true" signature="32:195" ph="{...}" />
+                <marker date="1535342650696" expanded="true" signature="88:193" ph="{...}" />
+                <marker date="1535342650696" expanded="true" signature="128:187" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaxCalculator.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payslip/TaxCalculator.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding>
+                <marker date="1535342563046" expanded="false" signature="6:47" ph="..." />
+                <marker date="1535342563046" expanded="true" signature="66:1162" ph="{...}" />
+                <marker date="1535342563046" expanded="true" signature="99:1160" ph="{...}" />
+                <marker date="1535342563046" expanded="true" signature="143:1154" ph="{...}" />
+                <marker date="1535342563046" expanded="true" signature="332:643" ph="{...}" />
+                <marker date="1535342563046" expanded="true" signature="697:1121" ph="{...}" />
+                <marker date="1535342563046" expanded="true" signature="893:1107" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -117,7 +149,7 @@
       <file leaf-file-name="PaySlip.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/payslip/PaySlip.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="465">
               <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
               <folding>
                 <marker date="1535341306270" expanded="true" signature="32:1543" ph="{...}" />
@@ -159,10 +191,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/payslip/InputReaderInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/payslip/ConsoleReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/payslip/DisplayMessages.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/payslip/TaxCalculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/payslipTests/DisplayMessagesShould.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/payslipTests/PaySlipShould.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/payslip/PaySlip.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/payslip/DisplayMessages.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/payslipTests/DateHandlerShould.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/payslipTests/TaxCalculatorShould.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/payslip/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -181,7 +215,10 @@
         <option value="$PROJECT_DIR$/payslipTests/PaySlipShould.cs" />
         <option value="$PROJECT_DIR$/payslipTests/DisplayMessagesShould.cs" />
         <option value="$PROJECT_DIR$/payslipTests/TaxCalculatorShould.cs" />
+        <option value="$PROJECT_DIR$/payslip/TaxCalculator.cs" />
+        <option value="$PROJECT_DIR$/payslip/InputReader.cs" />
         <option value="$PROJECT_DIR$/payslip/InputReaderInterface.cs" />
+        <option value="$PROJECT_DIR$/payslip/ConsoleReader.cs" />
       </list>
     </option>
   </component>
@@ -284,12 +321,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535325246397</updated>
-      <workItem from="1535325248833" duration="12021000" />
+      <workItem from="1535325248833" duration="12354000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12021000" />
+    <option name="totallyTimeSpent" value="12354000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -302,6 +339,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -343,18 +381,6 @@
         <state relative-caret-position="75">
           <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/payslip/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1535325252955" expanded="true" signature="32:173" ph="{...}" />
-            <marker date="1535325252955" expanded="true" signature="52:171" ph="{...}" />
-            <marker date="1535325252955" expanded="true" signature="98:165" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -455,9 +481,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/payslipTests/TaxCalculatorShould.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <marker date="1535342123516" expanded="true" signature="6:27" ph="..." />
+            <marker date="1535342123516" expanded="true" signature="51:582" ph="{...}" />
+            <marker date="1535342123516" expanded="true" signature="90:575" ph="{...}" />
+            <marker date="1535342123516" expanded="true" signature="188:258" ph="{...}" />
+            <marker date="1535342123516" expanded="true" signature="410:569" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payslip/TaxCalculator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <marker date="1535342563046" expanded="false" signature="6:47" ph="..." />
+            <marker date="1535342563046" expanded="true" signature="66:1162" ph="{...}" />
+            <marker date="1535342563046" expanded="true" signature="99:1160" ph="{...}" />
+            <marker date="1535342563046" expanded="true" signature="143:1154" ph="{...}" />
+            <marker date="1535342563046" expanded="true" signature="332:643" ph="{...}" />
+            <marker date="1535342563046" expanded="true" signature="697:1121" ph="{...}" />
+            <marker date="1535342563046" expanded="true" signature="893:1107" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payslip/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1535325252955" expanded="true" signature="32:173" ph="{...}" />
+            <marker date="1535325252955" expanded="true" signature="52:171" ph="{...}" />
+            <marker date="1535325252955" expanded="true" signature="98:165" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/payslip/PaySlip.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="465">
           <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
           <folding>
             <marker date="1535341306270" expanded="true" signature="32:1543" ph="{...}" />
@@ -473,27 +541,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/payslipTests/TaxCalculatorShould.cs">
+    <entry file="file://$PROJECT_DIR$/payslip/InputReaderInterface.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <marker date="1535342123516" expanded="true" signature="6:27" ph="..." />
-            <marker date="1535342123516" expanded="true" signature="51:582" ph="{...}" />
-            <marker date="1535342123516" expanded="true" signature="90:575" ph="{...}" />
-            <marker date="1535342123516" expanded="true" signature="188:258" ph="{...}" />
-            <marker date="1535342123516" expanded="true" signature="410:569" ph="{...}" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/payslip/InputReaderInterface.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
-            <marker date="1535342312535" expanded="true" signature="17:80" ph="{...}" />
-            <marker date="1535342312535" expanded="true" signature="57:78" ph="{...}" />
+            <marker date="1535342563049" expanded="true" signature="17:103" ph="{...}" />
+            <marker date="1535342563049" expanded="true" signature="61:101" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payslip/ConsoleReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <marker date="1535342650696" expanded="true" signature="32:195" ph="{...}" />
+            <marker date="1535342650696" expanded="true" signature="88:193" ph="{...}" />
+            <marker date="1535342650696" expanded="true" signature="128:187" ph="{...}" />
           </folding>
         </state>
       </provider>

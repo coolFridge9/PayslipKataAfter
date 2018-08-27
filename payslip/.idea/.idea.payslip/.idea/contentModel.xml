@@ -8,8 +8,10 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="payslip" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ConsoleReader.cs" t="Include" />
         <e p="DateHandler.cs" t="Include" />
         <e p="DisplayMessages.cs" t="Include" />
+        <e p="InputReaderInterface.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.0" t="Include">

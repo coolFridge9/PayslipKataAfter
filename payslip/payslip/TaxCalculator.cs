@@ -29,7 +29,7 @@ namespace payslip
                     return Convert.ToInt32(Math.Round(tax, MidpointRounding.AwayFromZero));
                 }
             }
-           
+
             return 0;
         }
     }

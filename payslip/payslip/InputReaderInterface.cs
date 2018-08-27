@@ -1,7 +1,7 @@
 ﻿namespace payslip
 {
-    public class InputReaderInterface
+    public interface InputReaderInterface
     {
-        
+        string ReadInput();
     }
 }
