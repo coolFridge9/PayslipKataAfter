@@ -8,12 +8,17 @@
       <e p="packages" t="ExcludeRecursive" />
       <e p="payslip" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="ConsoleReader.cs" t="Include" />
+        <e p="ConsoleIO" t="Include">
+          <e p="ConsoleReader.cs" t="Include" />
+          <e p="ConsoleWriter.cs" t="Include" />
+        </e>
         <e p="DateHandler.cs" t="Include" />
         <e p="DisplayMessages.cs" t="Include" />
         <e p="Interfaces" t="Include">
+          <e p="DisplayMessageInterface.cs" t="Include" />
           <e p="InputReaderInterface.cs" t="Include" />
           <e p="InputValidatorInterface.cs" t="Include" />
+          <e p="outInterface.cs" t="Include" />
           <e p="PaySlipInterface.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -27,6 +32,7 @@
         <e p="payslip.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="TaxCalculator.cs" t="Include" />
+        <e p="TUI.cs" t="Include" />
         <e p="UserInputValidator.cs" t="Include" />
       </e>
       <e p="payslip.sln" t="IncludeFlat" />
@@ -35,6 +41,8 @@
         <e p="DateHandlerShould.cs" t="Include" />
         <e p="DisplayMessagesShould.cs" t="Include" />
         <e p="Mocks" t="Include">
+          <e p="MockDisplayMessage.cs" t="Include" />
+          <e p="MockOutputAstext.cs" t="Include" />
           <e p="MockPaySlip.cs" t="Include" />
           <e p="MockUserInputValidator.cs" t="Include" />
           <e p="UserInputMock.cs" t="Include" />
@@ -47,6 +55,7 @@
             </e>
           </e>
         </e>
+        <e p="PayslipRendererShould.cs" t="Include" />
         <e p="PaySlipShould.cs" t="Include" />
         <e p="payslipTests.csproj" t="IncludeRecursive" />
         <e p="TaxCalculatorShould.cs" t="Include" />

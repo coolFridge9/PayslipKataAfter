@@ -6,7 +6,8 @@ namespace payslip
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var t = new TUI();
+            t.GetUserInput(new ConsoleReader(), new UserInputValidator(new ConsoleReader()),new DisplayMessages(), new ConsoleWriter() );
         }
     }
 }

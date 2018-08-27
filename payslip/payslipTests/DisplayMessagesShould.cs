@@ -76,5 +76,20 @@ namespace payslipTests
             var expected = "Thank you for using MYOB!";
             Assert.Equal(expected,result);
         }
+        
+        [Fact]
+        public void DisplayErrorMessage()
+        {
+            var result =_displayMessages.Error();
+            var expected = "Error, Try Again: ";
+            Assert.Equal(expected,result);
+        }
+        [Fact]
+        public void DisplayNewLine()
+        {
+            var result =_displayMessages.NewLine();
+            var expected = "\n";
+            Assert.Equal(expected,result);
+        }
     }
 }

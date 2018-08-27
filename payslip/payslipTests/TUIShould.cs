@@ -10,23 +10,11 @@ namespace payslipTests
         public void DisplayTUI()
         {
             var TUI = new TUI();
-            var inputReader = new UserInputMocks(new List<string>());
-            var result = TUI.GetUserInput(inputReader, new MockUserInputValidator());
-        }
-    }
-
-    public class TUI
-    {
-        public PaySlip GetUserInput(InputReaderInterface inputReader, InputValidatorInterface validator)
-        {
-            var firstName = validator.ValidateName(inputReader.Read());
-            var surname = validator.ValidateName(inputReader.Read());
-            var salary = validator.ValidateInteger(inputReader.Read());
-            var super = validator.ValidateInteger(inputReader.Read());
-            var startDate = inputReader.Read();
-            var endDate = inputReader.Read();
-            
-            return new PaySlip(firstName,surname,salary,super,startDate,endDate);
+            var mockInput = new UserInputMocks(new List<string>{"name","name","10000","7","10 m","20 m"});
+            var mockOutput = new MockOutputAstext();
+            TUI.GetUserInput(mockInput, new MockUserInputValidator(), new MockDisplayMessage(), mockOutput);
+            Assert.Equal("testName", mockOutput.WriteText[2]);
+            Assert.Equal("testSalary", mockOutput.WriteText[6]);
         }
     }
 }

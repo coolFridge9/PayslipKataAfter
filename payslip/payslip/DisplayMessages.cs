@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace payslip
 {
-    public class DisplayMessages
+    public class DisplayMessages : DisplayMessageInterface
     {
         public string Welcome()
         {
@@ -42,6 +42,16 @@ namespace payslip
         public string ThankUser()
         {
             return "Thank you for using MYOB!";
+        }
+
+        public string Error()
+        {
+            return "Error, Try Again: ";
+        }
+
+        public string NewLine()
+        {
+            return "\n";
         }
     }
 }

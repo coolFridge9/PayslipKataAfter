@@ -6,12 +6,17 @@ namespace payslipTests
     {
         public string ValidateName(string name)
         {
-            return name;
+            return "Jordan";
         }
 
         public int ValidateInteger(string num)
         {
             return 5;
+        }
+
+        public string ValidateDate(string date)
+        {
+            return "10 May";
         }
     }
 }
