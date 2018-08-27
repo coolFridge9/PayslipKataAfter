@@ -1,0 +1,15 @@
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/bin/Debug/netcoreapp2.0/payslipTests.deps.json
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/bin/Debug/netcoreapp2.0/payslipTests.runtimeconfig.json
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/bin/Debug/netcoreapp2.0/payslipTests.runtimeconfig.dev.json
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/bin/Debug/netcoreapp2.0/payslipTests.dll
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/bin/Debug/netcoreapp2.0/payslipTests.pdb
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/obj/Debug/netcoreapp2.0/payslipTests.csproj.CoreCompileInputs.cache
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/obj/Debug/netcoreapp2.0/payslipTests.AssemblyInfoInputs.cache
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/obj/Debug/netcoreapp2.0/payslipTests.AssemblyInfo.cs
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/obj/Debug/netcoreapp2.0/payslipTests.dll
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/obj/Debug/netcoreapp2.0/payslipTests.pdb
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/bin/Debug/netcoreapp2.0/payslip.dll
+/Users/jordan.elley/code/payslipAfter/payslip/payslipTests/bin/Debug/netcoreapp2.0/payslip.pdb

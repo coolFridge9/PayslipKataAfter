@@ -1,0 +1,11 @@
+/Users/jordan.elley/code/payslipAfter/payslip/payslip/bin/Debug/netcoreapp2.0/payslip.deps.json
+/Users/jordan.elley/code/payslipAfter/payslip/payslip/bin/Debug/netcoreapp2.0/payslip.runtimeconfig.json
+/Users/jordan.elley/code/payslipAfter/payslip/payslip/bin/Debug/netcoreapp2.0/payslip.runtimeconfig.dev.json
+/Users/jordan.elley/code/payslipAfter/payslip/payslip/bin/Debug/netcoreapp2.0/payslip.dll
+/Users/jordan.elley/code/payslipAfter/payslip/payslip/bin/Debug/netcoreapp2.0/payslip.pdb
+/Users/jordan.elley/code/payslipAfter/payslip/payslip/obj/Debug/netcoreapp2.0/payslip.csprojResolveAssemblyReference.cache
+/Users/jordan.elley/code/payslipAfter/payslip/payslip/obj/Debug/netcoreapp2.0/payslip.csproj.CoreCompileInputs.cache
+/Users/jordan.elley/code/payslipAfter/payslip/payslip/obj/Debug/netcoreapp2.0/payslip.AssemblyInfoInputs.cache
+/Users/jordan.elley/code/payslipAfter/payslip/payslip/obj/Debug/netcoreapp2.0/payslip.AssemblyInfo.cs
+/Users/jordan.elley/code/payslipAfter/payslip/payslip/obj/Debug/netcoreapp2.0/payslip.dll
+/Users/jordan.elley/code/payslipAfter/payslip/payslip/obj/Debug/netcoreapp2.0/payslip.pdb
